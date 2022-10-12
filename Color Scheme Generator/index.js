@@ -4,7 +4,7 @@ let colorVal = document.getElementById("colorVal")
 let colorMode = document.getElementById("mode")
 
 
-let html = ''
+
 getColorBtn.addEventListener("click", getColor)
 
 //uses fetch to get data depending on value of input and select value
@@ -28,7 +28,7 @@ function setColorImg (colorData) {
         </div>
     
         `
-        console.log(image.image.bare)
+
     }
    document.getElementById("colorDisplay").innerHTML = html
 }
